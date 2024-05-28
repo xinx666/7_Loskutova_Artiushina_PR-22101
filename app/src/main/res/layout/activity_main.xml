@@ -53,4 +53,16 @@
         app:layout_constraintVertical_bias="0.274"
         tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml" />
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="75dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/switch2"
+        app:layout_constraintVertical_bias="0.202"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

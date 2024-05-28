@@ -41,4 +41,16 @@
         tools:srcCompat="@tools:sample/avatars"
         android:contentDescription="TODO" />
 
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="193dp"
+        android:layout_height="87dp"
+        android:text="Switch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274"
+        tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

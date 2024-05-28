@@ -32,14 +32,14 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
         app:layout_constraintVertical_bias="0.609"
         tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="TODO" />
+        tools:srcCompat="@tools:sample/avatars" />
 
     <Switch
         android:id="@+id/switch2"
@@ -81,5 +81,16 @@
             android:orientation="vertical"
             tools:ignore="UselessLeaf" />
     </ScrollView>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Switch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
